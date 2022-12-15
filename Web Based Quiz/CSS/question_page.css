@@ -1,0 +1,151 @@
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gap {
+    margin-top: 50px;
+}
+
+.container {
+    background-color: rgb(238, 244, 244);
+    box-shadow: 0 4px 8px 0 rgb(121, 69, 69);
+    margin-top: 30px;
+    width: 850px;
+    height: 250px;
+    border-radius: 7px;
+    border: 2px solid rgb(248, 144, 74);
+}
+
+div h1 {
+    color: rgb(233, 114, 34);
+    text-align: center;
+    font-size: 50px;
+}
+
+.question {
+
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+label p {
+    margin-left: 20px;
+}
+
+.option-question {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 50px;
+}
+
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+
+.cont {
+    height: 150px;
+    width: 900px;
+    /* background-color: black; */
+    border-radius: 7px;
+    border: 1px solid wheat;
+}
+
+.sub-btn {
+    height: 45px;
+    width: 115px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    margin-left: 650px;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(233, 114, 34);
+}
+
+.sub-btn:hover {
+    font-weight: bolder;
+}
+
+/* navigation of first page................................ */
+
+:root {
+    --main-bg-color: rgb(233, 114, 34);
+}
+
+body {
+    background-color: #ede5db;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    height: 9vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 40px;
+}
+
+nav div img {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 20px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 15px 0 60px;
+    padding: 0 12px;
+}
+
+.search button:hover {
+    font-weight: bolder;
+}

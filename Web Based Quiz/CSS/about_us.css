@@ -1,0 +1,105 @@
+@media (max-width: 1220px) {
+    .about-us-view .about-us-inner .hero-section .hero-img {
+        width: 50%;
+        
+    }
+}
+
+.about-us-view .about-us-inner .hero-section .hero-img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 5000px;
+    background-color: aliceblue;
+}
+
+h1 {
+    display: inline;
+    position: center;
+    margin: top 500px;
+    margin-left: 18%;
+    color: rgb(39, 194, 194);
+    font-size: 70px;
+    width: 640px;
+    height: 120px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h2 {
+    display: inline;
+    position: center;
+    margin: top 500px;
+    margin-left: 35%;
+    color: rgb(20, 189, 211);
+    font-size: 70px;
+    width: 640px;
+    height: 120px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+div section img {
+    margin-top: 5%;
+    margin-left: 150px;
+    height: 200px;
+    width: 300px;
+
+}
+
+div section h4 {
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.progress-point img {
+    margin-top: 5%;
+    margin-left: 100px;
+    height: 300px;
+    width: 500px;
+}
+
+.progress-point h4 {
+    margin-top: 0px;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 600px;
+}
+
+.point-msg {
+    margin-top: 0px;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1120px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imag1 {
+    margin-left: 100px;
+}
+
+.imag2 {
+    margin-left: 45px;
+}
+
+.imag3 {
+    margin-left: 30px;
+}
+
+footer img {
+    margin-top: 7%;
+    height: 500px;
+    width: 1500px;
+    background-color: rgba(227, 217, 217, 0.981);
+}

@@ -1,0 +1,160 @@
+:root {
+    --main-bg-color: rgb(233, 114, 34);
+  }
+
+header{
+    background-color:var(--main-bg-color);
+    height: 9vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 40px;
+}
+
+nav div img{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    height: 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 20px;
+    width: 400px;
+    border-radius: 5px; 
+    margin: 0 15px 0 60px;
+    padding: 0 12px;
+}
+
+.search button{
+    
+}
+
+.search button:hover{
+    font-weight: bolder;
+}
+@media (max-width: 1120px)
+.about-us-view .about-us-inner .hero-section .hero-img {
+    width: 50%;
+}
+.about-us-view .about-us-inner .hero-section .hero-img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 5000px;
+}
+h1{
+    display: inline;
+    position:center;
+    margin: top 500px;;
+    margin-left: 17%;
+    color: rgb(20, 189, 211);
+    font-size: 70px;
+    width: 640px;
+    height: 120px;
+    font-weight: bold;
+    font-style: oblique;
+}
+h2{
+    display: inline;
+    position:center;
+    margin: top 500px;;
+    margin-left: 35%;
+    color: rgb(20, 189, 211);
+    font-size: 70px;
+    width: 640px;
+    height: 120px;
+    font-weight: bold;
+    font-style: oblique;
+}
+div section img{
+    margin-top: 5%;
+    margin-left: 150px;
+    height: 200px;
+    width: 300px;
+
+}
+div section h4{
+    font-size: larger;
+    font-style:normal;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.progress-point img{
+    margin-top: 5%;
+    margin-left: 100px;
+    height: 300px;
+    width: 500px;
+}
+.progress-point h4{
+    margin-top: 0px;
+    font-size: larger;
+    font-style:normal;
+    font-weight: bold;
+    margin-left: 600px;
+}
+.point-msg{
+    margin-top: 0px;
+    font-size: larger;
+    font-style:normal;
+    font-weight: bold;
+    margin-left: 1120px;
+
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+}
+.imag1{
+    margin-left: 100px;
+}
+.imag2{
+    margin-left: 45px;
+}
+.imag3{
+    margin-left: 30px;
+}
+ footer img{
+        margin-top: 7%;
+        height: 500px;
+        width: 1500px;
+        background-color:white;
+      
+}
